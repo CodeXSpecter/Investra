@@ -14,7 +14,7 @@ const Page = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "http://localhost:3002",
+        "https://investra.onrender.com",
         {},
         { withCredentials: true }
       );
