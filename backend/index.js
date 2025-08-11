@@ -15,7 +15,7 @@ const authRoute = require("./Routes/AuthRoute");
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: "https://investra.onrender.com", // exact frontend origin
+  origin: "https://investra-1.onrender.com", // exact frontend origin
   credentials: true               // allow cookies/auth headers
 }));
 
